@@ -1,14 +1,14 @@
-import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import {HashRouter,BrowserRouter,Routes,Route} from 'react-router-dom';
 import Coin from './Routes/Coin';
 import Coins from './Routes/Coins';
 
 function Router(){
-    return <BrowserRouter>
+    return <HashRouter>
     <Routes>
     <Route path='/:coinId/*' element={<Coin/>}/>
     <Route path='/' element={<Coins/>}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
 }
 
 export default Router;
