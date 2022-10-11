@@ -3,7 +3,7 @@ import Coin from './Routes/Coin';
 import Coins from './Routes/Coins';
 
 function Router(){
-    return <BrowserRouter basename="/Coin-App/">
+    return <BrowserRouter>
     <Routes>
     <Route path='/:coinId/*' element={<Coin/>}/>
     <Route path='/' element={<Coins/>}/>
