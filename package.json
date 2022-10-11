@@ -50,7 +50,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://kkb4363.github.io/Coin",
+  "homepage": "https://kkb4363.github.io/Coin/",
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.26",
